@@ -112,22 +112,63 @@ nav{
 }
 
 .caption{
-    didplay:block;
+    display:block;
 }
 
 .nav-list{
     width:24rem;
     height:100vh;
-    background-color:#222222
+    background-color:#222222;
     position:fixed;
     top:0;
-    right:0;
+    right:-26rem;
     display:flex;
-    flex-direction:column
+    flex-direction:column;
     align-items: center;
     justify-self: start;
     z-index: 998;
     transition: all 650ms ease-in-out;
+}
+
+.nav-list.active{ /* adjusted using JS */
+    right:0;
+}
+
+.nav-item{
+     margin:1.2rem 0;
+}
+
+.nav-link{
+    opacity:1;/* adjusted using JS */
+    font-size:1.3rem;
+    text-transform:uppercase;
+    color:#cecece;
+    letter-spacing: 1.5px;
+}
+
+.nav-link:hover{
+    color:rgba(249,105,14,1);
+}
+
+/* 'X' in hamburger menu icon triggered by JS*/
+.toggle{
+    background:none;
+}
+
+.toggle.line1{
+    transform: rotate(-45deg) translate(-5px, 6px) scaleX(2);
+}
+
+.toggle.line2{
+    opacity:0;
+}
+
+.toggle.line3{
+    transform: rotate(45deg) translate(-5px, -6px) scaleX(2);
+    margin-left: 0px;
+}
+
+@keyframes  {
 
 
 }
