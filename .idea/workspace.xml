@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="setup">
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +75,7 @@
       <workItem from="1608516147351" duration="1396000" />
       <workItem from="1608580811689" duration="1628000" />
       <workItem from="1608589156231" duration="2756000" />
-      <workItem from="1608674801068" duration="1578000" />
+      <workItem from="1608674801068" duration="2349000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608591613519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add delay to link display and animation">
+      <created>1608676770311</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608676770311</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +135,7 @@
     <MESSAGE value="add logo, bg image and favicon" />
     <MESSAGE value="add menu items" />
     <MESSAGE value="add style to menu bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add style to menu bar" />
+    <MESSAGE value="add delay to link display and animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add delay to link display and animation" />
   </component>
 </project>

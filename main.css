@@ -139,7 +139,7 @@ nav{
 }
 
 .nav-link{
-    opacity:1;/* adjusted using JS */
+    opacity:0;/* adjusted using JS - set to zero so no links displayed until event handler triggered */
     font-size:1.3rem;
     text-transform:uppercase;
     color:#cecece;
@@ -155,20 +155,29 @@ nav{
     background:none;
 }
 
-.toggle.line1{
+.toggle .line1{ /* space between 'toggle' and '.' is necessary*/
     transform: rotate(-45deg) translate(-5px, 6px) scaleX(2);
 }
 
-.toggle.line2{
+.toggle .line2{
     opacity:0;
 }
 
-.toggle.line3{
+.toggle .line3{
     transform: rotate(45deg) translate(-5px, -6px) scaleX(2);
     margin-left: 0px;
 }
 
-@keyframes  {
+/* menu item delay */
+@keyframes navLinkAnimate{
+    from{
+        opacity:0;
+        transform: translate(50px);
+    }
+    to{
+        opacity:1;
+        transform:translate(0px);
+    }
 
 
 }
