@@ -203,5 +203,35 @@ nav{
     text-align: center;
 }
 
+.main-message h2{
+    letter-spacing: 1.2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(27), blink 1s ease-in-out 7s infinite; /* delay: 5s for typing and 7s for cursor*/
+    width: 27ch;
+    margin:auto;
+}
 
+/* CSS animnations for front page */
+@keyframes typing {
+    75%{
+        width: 0;
+        color: rgba(249,105,14,1);
+    }
+    100%{
+        width: 27ch;
 
+    }
+
+}
+
+@keyframes blink{
+    from{
+        border-right: 4px solid rgba(255,255,255,0);
+    }
+    to{
+        border-right: 4px solid rgb(194,194,194);
+    }
+}
