@@ -340,3 +340,30 @@ hr{
     border: 0; /* removing border to see effect*/
 
 }
+
+/* professional experience*/
+
+.services{
+    padding:3rem 0;
+    min-height:100vh;
+    max-width: 90rem;
+    margin: auto; /* centers content */
+}
+
+.title-heading{
+    text-align:center;
+    margin-bottom:5rem;
+
+}
+
+.title-heading h2{
+    font-size:2rem;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.title-heading p{
+    font-family: "Roboto",sans-serif;
+    margin-bottom:5rem;
+}
+
+
