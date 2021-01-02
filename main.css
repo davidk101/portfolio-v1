@@ -12,7 +12,7 @@
 }
 
 html{
-    font-family: "montserrat", monospace;
+    font-family: "Montserrat", monospace;
     font-size: 12px;
     box-sizing: border-box;
     scroll-behavior:smooth;
@@ -241,6 +241,9 @@ nav{
     font-size: 4rem;
     margin: 1rem 0;
     color: rgba(249,105,14,1);
+    background: linear-gradient(to right, rgba(249,105,14,1) 0, rgba(102,51,153,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -326,7 +329,7 @@ nav{
 }
 
 .about-text-box p{
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.4rem;
     padding: 0;
     margin-bottom: 1.45rem;
@@ -362,8 +365,36 @@ hr{
 }
 
 .title-heading p{
-    font-family: "Roboto",sans-serif;
+    font-family: "Montserrat",sans-serif;
     margin-bottom:5rem;
 }
 
+/* using CSS grid for tiers */
+.service-tiers{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); /* auto-fit -> mobile-responsive*/
+    gap: 2.5rem;
+}
 
+.tier-item{
+    height: 30rem;
+    padding:3rem;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: default;
+}
+
+.tier-item h2{
+    font-size:2rem;
+    margin:2rem 0;
+    background: linear-gradient(to right, rgba(249,105,14,1) 0, rgba(102,51,153,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tier-item p{
+    font-family: "Montserrat", sans-serif;
+    font-size:1.4rem;
+}
