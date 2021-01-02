@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="setup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
       <workItem from="1609462550210" duration="503000" />
       <workItem from="1609470570715" duration="183000" />
       <workItem from="1609471073228" duration="389000" />
-      <workItem from="1609541452973" duration="1519000" />
+      <workItem from="1609541452973" duration="1829000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609471399561</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add about page contents">
+      <created>1609547264221</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609547264221</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +184,7 @@
     <MESSAGE value="add style for front page" />
     <MESSAGE value="add styling to front page" />
     <MESSAGE value="update chevron position" />
-    <option name="LAST_COMMIT_MESSAGE" value="update chevron position" />
+    <MESSAGE value="add about page contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="add about page contents" />
   </component>
 </project>

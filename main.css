@@ -320,3 +320,23 @@ nav{
 
 }
 
+.about-text-box h2{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.about-text-box p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    padding: 0;
+    margin-bottom: 1.45rem;
+
+}
+
+hr{
+    margin: 4rem 0;
+    background: linear-gradient(to right, rgba(249, 105, 14, 1), rgba(102,51,153,1) 100%);
+    height: 1px;
+    border: 0; /* removing border to see effect*/
+
+}
