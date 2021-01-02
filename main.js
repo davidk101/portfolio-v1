@@ -18,3 +18,22 @@ selectElement(".burger-menu-icon").addEventListener("click", () => { // adding o
         }
     })
 });
+
+// closing menu bar after moving to desired page
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        selectElement(".nav-list").classList.toggle("active");
+        selectElement(".burger-menu-icon").classList.toggle("toggle");
+
+        // links display delay
+        navLinks.forEach((link, index) =>{
+
+            if (link.style.animation){
+                link.style.animation =""; // resets animation to empty string if it exists
+            }
+            else{
+                link.style.animation = `navLinkAnimate 0.5s ease forwards ${index/7 + 0.5}s`
+            }
+        })
+    })
+})
