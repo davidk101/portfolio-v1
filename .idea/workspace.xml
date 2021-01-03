@@ -4,6 +4,7 @@
     <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,8 @@
       <workItem from="1609470570715" duration="183000" />
       <workItem from="1609471073228" duration="389000" />
       <workItem from="1609541452973" duration="6565000" />
-      <workItem from="1609622254471" duration="2763000" />
+      <workItem from="1609622254471" duration="3286000" />
+      <workItem from="1609640614232" duration="280000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -206,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609624900162</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add 'contact me' section">
+      <created>1609625739357</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609625739357</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +253,7 @@
     <MESSAGE value="add JS to remove menu bar when not needed" />
     <MESSAGE value="add 'projects' to html" />
     <MESSAGE value="add styling to 'projects'" />
-    <option name="LAST_COMMIT_MESSAGE" value="add styling to 'projects'" />
+    <MESSAGE value="add 'contact me' section" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 'contact me' section" />
   </component>
 </project>
