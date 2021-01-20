@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +73,9 @@
       <workItem from="1609471073228" duration="389000" />
       <workItem from="1609541452973" duration="6565000" />
       <workItem from="1609622254471" duration="3286000" />
-      <workItem from="1609640614232" duration="586000" />
+      <workItem from="1609640614232" duration="1765000" />
+      <workItem from="1610245737249" duration="207000" />
+      <workItem from="1611181213566" duration="1812000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -220,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609641128434</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add styling to 'footer' and hover effect for all &lt;a&gt;">
+      <created>1609641549520</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609641549521</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +271,7 @@
     <MESSAGE value="add styling to 'projects'" />
     <MESSAGE value="add 'contact me' section" />
     <MESSAGE value="add styling to 'contact'" />
-    <option name="LAST_COMMIT_MESSAGE" value="add styling to 'contact'" />
+    <MESSAGE value="add styling to 'footer' and hover effect for all &lt;a&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add styling to 'footer' and hover effect for all &lt;a&gt;" />
   </component>
 </project>
