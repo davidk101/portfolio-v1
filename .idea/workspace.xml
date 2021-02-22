@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="add logos for Experience">
+    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update landing page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -89,7 +89,7 @@
       <workItem from="1611181213566" duration="2198000" />
       <workItem from="1612135383396" duration="105000" />
       <workItem from="1613860363045" duration="1045000" />
-      <workItem from="1614009542536" duration="7673000" />
+      <workItem from="1614009542536" duration="8808000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613861487905</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="update landing page">
+      <created>1614021746473</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1614021746473</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +309,7 @@
     <MESSAGE value="add styling to 'footer' and hover effect for all &lt;a&gt;" />
     <MESSAGE value="add experience text" />
     <MESSAGE value="add logos for Experience" />
-    <option name="LAST_COMMIT_MESSAGE" value="add logos for Experience" />
+    <MESSAGE value="update landing page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update landing page" />
   </component>
 </project>

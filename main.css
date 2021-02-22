@@ -76,13 +76,13 @@ nav{
     width:15px;
     height:3px;
     margin:5px 0;
-    background:linear-gradient(135deg,rgba(249,105,14,1) 0%, rgb(255,255,255) 100%);
+    background: white;
 }
 
 .line2{
     width:30px;
     height:3px;
-    background:linear-gradient(135deg,rgba(249,105,14,1) 0%, rgb(255,255,255) 100%);
+    background: white;
 }
 
 .line3{
@@ -90,7 +90,7 @@ nav{
     height:3px;
     margin:5px 0;
     margin-left: 15px;
-    background:linear-gradient(135deg,rgba(249,105,14,1) 0%, rgb(255,255,255) 100%);
+    background: white;
 }
 
 .burger-menu-icon{
@@ -99,7 +99,7 @@ nav{
     position:fixed; /* does not scroll */
     right:0;
     top:0;
-    background:rgba(55,55,55,0.5);
+    background:black;
     padding:1.2rem;
     border-radius:0% 0% 0% 40%;
 
@@ -137,13 +137,13 @@ nav{
 
 .nav-item{
      margin:1.2rem 0;
-     margin-top: 3.5rem;
+     margin-top: 5.5rem;
 }
 
 .nav-link{
     opacity:0;/* adjusted using JS - set to zero so no links displayed until event handler triggered */
-    font-size:1.3rem;
-    text-transform:lowercase;
+    font-size:1.5rem;
+    text-transform:uppercase;
     color: white;
     letter-spacing: 3px;
 }
@@ -180,8 +180,6 @@ nav{
         opacity:1;
         transform:translate(0px);
     }
-
-
 }
 
 /* landing page ************************************************************* */
@@ -215,9 +213,10 @@ nav{
     font-weight: 400;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s steps(15), blink 1s ease-in-out 7s infinite; /* delay: 3s for typing and 7s for cursor*/
-    width: 15ch;
+    animation: typing 3s steps(25), blink 1s ease-in-out 7s infinite; /* delay: 3s for typing and 7s for cursor*/
+    width: 25ch;
     margin:auto;
+    margin-bottom: 50px;
     border-right: 4px solid rgb(0,0,0); /* initializes the cursor*/
 }
 /* CSS animations for front page */
