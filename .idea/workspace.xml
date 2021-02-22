@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update landing page">
+    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update menu bar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -43,17 +43,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -89,7 +78,8 @@
       <workItem from="1611181213566" duration="2198000" />
       <workItem from="1612135383396" duration="105000" />
       <workItem from="1613860363045" duration="1045000" />
-      <workItem from="1614009542536" duration="8808000" />
+      <workItem from="1614009542536" duration="8861000" />
+      <workItem from="1614023046701" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -266,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614021746473</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update menu bar">
+      <created>1614022951694</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1614022951694</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +282,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="setup" />
     <MESSAGE value="add logo, bg image and favicon" />
     <MESSAGE value="add menu items" />
     <MESSAGE value="add style to menu bar" />
@@ -310,6 +306,7 @@
     <MESSAGE value="add experience text" />
     <MESSAGE value="add logos for Experience" />
     <MESSAGE value="update landing page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update landing page" />
+    <MESSAGE value="update menu bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="update menu bar" />
   </component>
 </project>
