@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
 /*global styles*/
-/* */
 
 *,
 *::before,
@@ -12,12 +10,12 @@
 }
 
 html{
-    font-family: "Montserrat", monospace;
+    font-family: 'DM Sans', sans-serif;
     font-size: 12px;
     box-sizing: border-box;
     scroll-behavior:smooth;
-    color:#e7e7e7;
-    background:rgb(19,19,19);
+    color: black;
+    background:rgb(255,255,255);
 }
 
 a{
@@ -121,7 +119,7 @@ nav{
 .nav-list{
     width:24rem;
     height:100vh;
-    background-color:#222222;
+    background-color: black;
     position:fixed;
     top:0;
     right:-26rem;
@@ -139,14 +137,15 @@ nav{
 
 .nav-item{
      margin:1.2rem 0;
+     margin-top: 3.5rem;
 }
 
 .nav-link{
     opacity:0;/* adjusted using JS - set to zero so no links displayed until event handler triggered */
     font-size:1.3rem;
-    text-transform:uppercase;
-    color:#cecece;
-    letter-spacing: 1.5px;
+    text-transform:lowercase;
+    color: white;
+    letter-spacing: 3px;
 }
 
 .nav-link:hover{
@@ -185,12 +184,12 @@ nav{
 
 }
 
-/* landing page */
+/* landing page ************************************************************* */
 
 .landing-page{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(135deg, rgba(0,64,77,0.9) 0%, rgba(0,0,0,0.8) 100%), url("images/front_page.png")  center no-repeat;
+    background: center no-repeat;
     background-size: contain;
     position: relative;
 }
@@ -206,51 +205,59 @@ nav{
     text-align: center;
 }
 
-.main-message h2{
-    letter-spacing: 1.2rem;
-    font-size: 2rem;
-    font-weight: 400;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 5s steps(27), blink 1s ease-in-out 7s infinite; /* delay: 5s for typing and 7s for cursor*/
-    width: 27ch;
-    margin:auto;
-    border-right: 4px solid rgba(255,255,255,1); /* initializes the cursor*/
-}
-
 .main-message p{
     padding: 1rem;
 }
 
+.main-message h2{
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(15), blink 1s ease-in-out 7s infinite; /* delay: 3s for typing and 7s for cursor*/
+    width: 15ch;
+    margin:auto;
+    border-right: 4px solid rgb(0,0,0); /* initializes the cursor*/
+}
 /* CSS animations for front page */
 @keyframes typing {
-    75%{
+    0% {
+        color: rgb(0,0,0);
+    }
+    50%{
         width: 0;
-        color: rgba(249,105,14,1);
+        color: rgb(0,0,0);
     }
     100%{
         width: 27ch;
-
+        color: rgb(0,0,0);
     }
 
 }
 
 @keyframes blink{
     from{
-        border-right: 4px solid rgba(255,255,255,0);
+        border-right: 4px solid rgb(0,0,0);
     }
     to{
-        border-right: 4px solid rgb(194,194,194);
+        border-right: 4px solid rgb(0,0,0);
     }
 }
 
+.font-awesome i{
+    color:black;
+    margin: 1.5rem;
+    margin-top: 60px;
+}
 .main-message h3{
-    font-size: 4rem;
+    font-size: 5rem;
     margin: 1rem 0;
-    color: rgba(249,105,14,1);
-    background: linear-gradient(to right, rgba(249,105,14,1) 0, rgba(102,51,153,1) 100%);
+    color: black;
+    text-transform: lowercase;
+    /*background: linear-gradient(to right, rgba(249,105,14,1) 0, rgba(102,51,153,1) 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;*/
 
 }
 
@@ -267,7 +274,7 @@ nav{
 
 .btn{
     margin: 0 9px;
-    background: rgba(3,155,155,1);
+    background: rgb(0,0,0);
     border-radius: 2rem;
     color: #fafafa;
     padding: 1rem 2.5rem;
@@ -296,7 +303,7 @@ nav{
 
 }
 
-/* about section */
+/* about section ************************************************************* */
 
 .about{
 
@@ -319,7 +326,7 @@ nav{
     width: auto;
     border-radius: 50%;
     margin: 2rem;
-    box-shadow: 0 20px 30px 0 rgba(0,255,255,0.15);
+    box-shadow: 0 20px 30px 0 rgba(0,255,255,1);
 }
 
 .about-text-box{
@@ -345,13 +352,13 @@ nav{
 
 hr{
     margin: 4rem 0;
-    background: linear-gradient(to right, rgba(249, 105, 14, 1), rgba(102,51,153,1) 100%);
-    height: 1px;
+    background: black;
+    height: 10px;
     border: 0; /* removing border to see effect*/
 
 }
 
-/* professional experience*/
+/* professional experience **************************************************************/
 
 .services{
     padding:3rem 0;
