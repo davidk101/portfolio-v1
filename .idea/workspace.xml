@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update about me">
-      <change afterPath="$PROJECT_DIR$/images/backend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/database.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/db.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/frontend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/phone.png" afterDir="false" />
+    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="add tech stack">
+      <change afterPath="$PROJECT_DIR$/images/other.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -86,7 +81,8 @@
       <workItem from="1613860363045" duration="1045000" />
       <workItem from="1614009542536" duration="8861000" />
       <workItem from="1614023046701" duration="214000" />
-      <workItem from="1614131787095" duration="4173000" />
+      <workItem from="1614131787095" duration="4229000" />
+      <workItem from="1614138733214" duration="2625000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -284,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614134262225</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add tech stack">
+      <created>1614136071102</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1614136071102</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +306,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add style to menu bar" />
     <MESSAGE value="add delay to link display and animation" />
     <MESSAGE value="fix hamburger menu icon bug" />
     <MESSAGE value="add front page and styling" />
@@ -328,6 +330,7 @@
     <MESSAGE value="update menu bar" />
     <MESSAGE value="add chevron" />
     <MESSAGE value="update about me" />
-    <option name="LAST_COMMIT_MESSAGE" value="update about me" />
+    <MESSAGE value="add tech stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tech stack" />
   </component>
 </project>
