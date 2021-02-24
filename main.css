@@ -208,14 +208,15 @@ nav{
 }
 
 .main-message h2{
-    letter-spacing: 1rem;
-    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    font-size: 3.5rem;
     font-weight: 400;
     overflow: hidden;
     white-space: nowrap;
     animation: typing 3s steps(25), blink 1s ease-in-out 7s infinite; /* delay: 3s for typing and 7s for cursor*/
     width: 25ch;
     margin:auto;
+    justify-content: center;
     margin-bottom: 50px;
     border-right: 4px solid rgb(0,0,0); /* initializes the cursor*/
 }
@@ -316,16 +317,8 @@ nav{
 .about .container{
     display: flex;
     align-items: center;
-    min-height: 80vh;
+    min-height: 40vh;
 
-}
-
-.about-img img{
-    height: 12rem;
-    width: auto;
-    border-radius: 50%;
-    margin: 2rem;
-    box-shadow: 0 20px 30px 0 rgba(0,255,255,1);
 }
 
 .about-text-box{
@@ -337,25 +330,74 @@ nav{
 }
 
 .about-text-box h2{
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 20px;
+
 }
 
 .about-text-box p{
     font-family: "Montserrat", sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     padding: 0;
     margin-bottom: 1.45rem;
 
 }
 
 hr{
-    margin: 4rem 0;
+    margin: 5rem 0;
     background: black;
     height: 10px;
     border: 0; /* removing border to see effect*/
 
 }
+
+/* tech stack section ************************************************************* */
+
+
+.stack{
+
+    width: 100%;
+    min-height:100vh;
+    max-width: 70rem;
+    margin: auto; /* centers content */
+
+}
+
+.stack-header h2{
+
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.stack .container{
+    display: flex;
+    align-items: center;
+    min-height: 40vh;
+    border: 2px solid black;
+}
+
+.stack-text-box{
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    border: 2px solid black;
+
+}
+
+.stack-text-box h2{
+    font-size: 5rem;
+    margin-bottom: 20px;
+
+}
+
+.stack-text-box p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7rem;
+    padding: 0;
+    margin-bottom: 1.45rem;
+
+}
+
 
 /* professional experience **************************************************************/
 

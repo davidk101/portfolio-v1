@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update menu bar">
+    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="add chevron">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -79,7 +79,8 @@
       <workItem from="1612135383396" duration="105000" />
       <workItem from="1613860363045" duration="1045000" />
       <workItem from="1614009542536" duration="8861000" />
-      <workItem from="1614023046701" duration="99000" />
+      <workItem from="1614023046701" duration="214000" />
+      <workItem from="1614131787095" duration="2413000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -263,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614022951694</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add chevron">
+      <created>1614023255693</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1614023255694</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +290,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add logo, bg image and favicon" />
     <MESSAGE value="add menu items" />
     <MESSAGE value="add style to menu bar" />
     <MESSAGE value="add delay to link display and animation" />
@@ -307,6 +314,7 @@
     <MESSAGE value="add logos for Experience" />
     <MESSAGE value="update landing page" />
     <MESSAGE value="update menu bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="update menu bar" />
+    <MESSAGE value="add chevron" />
+    <option name="LAST_COMMIT_MESSAGE" value="add chevron" />
   </component>
 </project>
