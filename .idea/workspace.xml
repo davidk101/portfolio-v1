@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update tech stack">
+    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="add experience">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -81,7 +81,8 @@
       <workItem from="1614009542536" duration="8861000" />
       <workItem from="1614023046701" duration="214000" />
       <workItem from="1614131787095" duration="4229000" />
-      <workItem from="1614138733214" duration="3949000" />
+      <workItem from="1614138733214" duration="4570000" />
+      <workItem from="1614191969422" duration="1200000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -293,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614143802021</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add experience">
+      <created>1614144993205</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1614144993205</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +320,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix hamburger menu icon bug" />
     <MESSAGE value="add front page and styling" />
     <MESSAGE value="add CSS type and cursor animations" />
     <MESSAGE value="add style for front page" />
@@ -337,6 +344,7 @@
     <MESSAGE value="update about me" />
     <MESSAGE value="add tech stack" />
     <MESSAGE value="update tech stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="update tech stack" />
+    <MESSAGE value="add experience" />
+    <option name="LAST_COMMIT_MESSAGE" value="add experience" />
   </component>
 </project>
