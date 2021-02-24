@@ -419,58 +419,54 @@ hr{
 
 /* professional experience **************************************************************/
 
-.services{
+.projects{
     padding:3rem 0;
     min-height:100vh;
-    max-width: 90rem;
-    margin: auto; /* centers content */
+    max-width:70rem;
+    margin:auto; /* centers content*/
 }
 
-.title-heading{
-    text-align:center;
-    margin-bottom:5rem;
+.has-margin-right{
+    margin: 0 3rem 0 0;
+}
+
+.project-item{
+    display:flex; /* image and content will be side by side*/
+    align-items:center;
+    justify-content:center;
+    margin:0 1.45rem 5rem 1.45rem;
 
 }
 
-.title-heading h2{
+.project-img{
+    flex: 1; /*image and content will occupy equal spacing*/
+}
+
+.project-description{
+    flex:1;  /*image and content will occupy equal spacing*/
+}
+
+.project-description h2{
     font-size:2rem;
-    margin: 0.5rem 0 1rem 0;
-}
-
-.title-heading p{
-    font-family: "Montserrat",sans-serif;
-    margin-bottom:5rem;
-}
-
-/* using CSS grid for tiers */
-.service-tiers{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); /* auto-fit -> mobile-responsive*/
-    gap: 2.5rem;
-}
-
-.tier-item{
-    height: 30rem;
-    padding:3rem;
-    position: relative;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: default;
-}
-
-.tier-item h2{
-    font-size:2rem;
-    margin:2rem 0;
+    margin: 2rem 0;
     background: linear-gradient(to right, rgba(249,105,14,1) 0, rgba(102,51,153,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 
-.tier-item p{
-    font-family: "Montserrat", sans-serif;
+.project-description p{
+    font-family: "Open Sans", sans-serif;
+    font-size:1.4rem;
+
+}
+
+.project-link{
+    display: inline-block;
+    margin: 2rem 0;
     font-size:1.4rem;
 }
+
 
 /* projects */
 
