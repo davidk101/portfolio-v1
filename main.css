@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
 /*global styles*/
 
 *,
@@ -380,8 +382,16 @@ hr{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
-    border: 2px solid black;
+    margin-right: 80px;
 
+}
+
+.container .stack-text-box p{
+    text-align:center;
+    font-size: 1.5rem;
+    padding: 0;
+    margin-bottom: 1.45rem;
+    font-family: 'Inter', sans-serif;
 }
 
 .stack-text-box h2{
@@ -389,15 +399,6 @@ hr{
     margin-bottom: 20px;
 
 }
-
-.stack-text-box p{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.7rem;
-    padding: 0;
-    margin-bottom: 1.45rem;
-
-}
-
 
 /* professional experience **************************************************************/
 
