@@ -79,7 +79,6 @@ nav{
     align-items:center;
     justify-content:space-between;
     padding:1rem 0;
-    border: 10px solid yellow;
 }
 
 .line1{
@@ -258,10 +257,11 @@ nav{
 .main-message h3{
     font-family: 'DM Sans', sans-serif;
     font-size: 5rem;
-    margin: 1rem 0;
     color: black;
     text-transform: lowercase;
     text-align: left;
+    margin-left: 120px;
+
     /*background: linear-gradient(to right, rgba(249,105,14,1) 0, rgba(102,51,153,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
