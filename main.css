@@ -204,8 +204,8 @@ nav{
     font-weight: 400;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s steps(25), blink 1s ease-in-out 7s infinite; /* delay: 3s for typing and 7s for cursor*/
-    width: 25ch;
+    animation: typing 1.8s steps(22), blink 1s ease-in-out 7s infinite; /* delay: 3s for typing and 7s for cursor*/
+    width: 22ch;
     margin:auto;
     justify-content: center;
     margin-bottom: 50px;
