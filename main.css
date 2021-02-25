@@ -154,24 +154,12 @@ nav{
     color:rgba(249,105,14,1);
 }
 
-/* 'X' in hamburger menu icon triggered by JS
+/*'X' in hamburger menu icon triggered by JS*/
 .toggle{
-    background:none;
+
+    display:none;
 }
 
-.toggle .line1{ /* space between 'toggle' and '.' is necessary
-    transform: rotate(-50deg) translate(-5px, 6px) scaleX(2);
-}
-
-.toggle .line2{
-    opacity:0; /* disappears
-}
-
-.toggle .line3{
-    transform: rotate(48deg) translate(-5px, -6px) scaleX(2);
-    margin-left: 0px;
-}
-*/
 /* menu item delay */
 @keyframes navLinkAnimate{
     from{
