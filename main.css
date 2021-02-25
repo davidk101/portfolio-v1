@@ -433,13 +433,21 @@ hr{
 
 }
 
-/* professional experience **************************************************************/
+/* professional experience and projects **************************************************************/
 
+.services{
+    padding:3rem 0;
+    min-height:100vh;
+    max-width:70rem;
+    margin:auto; /* centers content*/
+    border: 2px solid yellow;
+}
 .projects{
     padding:3rem 0;
     min-height:100vh;
     max-width:70rem;
     margin:auto; /* centers content*/
+    border: 2px solid yellow;
 }
 
 .has-margin-right{
@@ -451,11 +459,14 @@ hr{
     align-items:center;
     justify-content:center;
     margin:0 1.45rem 5rem 1.45rem;
+    border: 2px solid black;
 
 }
 
 .project-img{
     flex: 1; /*image and content will occupy equal spacing*/
+    border: 2px solid yellow;
+    margin-right: 30px;
 }
 
 .project-description{
@@ -463,74 +474,23 @@ hr{
 }
 
 .project-description h2{
+    font-family: "Montserrat", sans-serif;
     font-size:2rem;
     margin: 2rem 0;
-    background: linear-gradient(to right, rgba(249,105,14,1) 0, rgba(102,51,153,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    border: 2px solid yellow;
 
 }
 
 .project-description p{
-    font-family: "Open Sans", sans-serif;
-    font-size:1.4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size:1.6rem;
+    border: 2px solid yellow;
 
 }
 
 .project-link{
     display: inline-block;
-    margin: 2rem 0;
-    font-size:1.4rem;
-}
-
-
-/* projects */
-
-.projects{
-    padding:3rem 0;
-    min-height:100vh;
-    max-width:70rem;
-    margin:auto; /* centers content*/
-}
-
-.has-margin-right{
-    margin: 0 3rem 0 0;
-}
-
-.project-item{
-    display:flex; /* image and content will be side by side*/
-    align-items:center;
-    justify-content:center;
-    margin:0 1.45rem 5rem 1.45rem;
-
-}
-
-.project-img{
-    flex: 1; /*image and content will occupy equal spacing*/
-}
-
-.project-description{
-    flex:1;  /*image and content will occupy equal spacing*/
-}
-
-.project-description h2{
-    font-size:2rem;
-    margin: 2rem 0;
-    background: linear-gradient(to right, rgba(249,105,14,1) 0, rgba(102,51,153,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-
-.project-description p{
-    font-family: "Open Sans", sans-serif;
-    font-size:1.4rem;
-
-}
-
-.project-link{
-    display: inline-block;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
     font-size:1.4rem;
 }
 
