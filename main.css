@@ -365,7 +365,7 @@ hr{
 
     font-family: 'DM Sans', sans-serif;
     font-size: 5rem;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 .stack .container{
     display: flex;
@@ -375,17 +375,19 @@ hr{
 
 .stack-text-box{
 
-    flex-grow: 1;
+    /*flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 0;
-    margin-right: 80px;
+    flex-basis: 0;*/
+    margin-right: 30px;
     position: relative;
 
 }
 
+
+
 .container .stack-text-box p{
     text-align:center;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     padding: 0;
     margin-bottom: 1.45rem;
     font-family: 'Merriweather Sans', sans-serif;
