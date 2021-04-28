@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update teaser.png">
+    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update landing page and about section">
+      <change afterPath="$PROJECT_DIR$/images/cloud.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
@@ -38,11 +39,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -87,7 +99,7 @@
       <workItem from="1614225892028" duration="75000" />
       <workItem from="1614226008996" duration="474000" />
       <workItem from="1619565188014" duration="1173000" />
-      <workItem from="1619577810242" duration="3046000" />
+      <workItem from="1619577810242" duration="5104000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -355,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614226407896</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="update landing page and about section">
+      <created>1619582308957</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1619582308957</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +393,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update chevron position" />
     <MESSAGE value="add about page contents" />
     <MESSAGE value="add styling to 'about'" />
     <MESSAGE value="add 'work experience'" />
@@ -399,6 +417,7 @@
     <MESSAGE value="update landing page" />
     <MESSAGE value="update menu bar" />
     <MESSAGE value="update teaser.png" />
-    <option name="LAST_COMMIT_MESSAGE" value="update teaser.png" />
+    <MESSAGE value="update landing page and about section" />
+    <option name="LAST_COMMIT_MESSAGE" value="update landing page and about section" />
   </component>
 </project>
