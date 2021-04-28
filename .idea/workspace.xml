@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update teaser.png">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,9 @@
       <workItem from="1614191969422" duration="1528000" />
       <workItem from="1614215147976" duration="10331000" />
       <workItem from="1614225892028" duration="75000" />
-      <workItem from="1614226008996" duration="321000" />
+      <workItem from="1614226008996" duration="474000" />
+      <workItem from="1619565188014" duration="1173000" />
+      <workItem from="1619577810242" duration="3046000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -344,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614225954724</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="update teaser.png">
+      <created>1614226407896</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1614226407896</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
 /*global styles*/
 
 *,
@@ -12,7 +13,7 @@
 }
 
 html{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 12px;
     box-sizing: border-box;
     scroll-behavior:smooth;
@@ -35,7 +36,7 @@ a{
 }
 
 a:hover{
-    color: rgba(189, 72, 0, 1);
+    color: rgb(200, 214, 229);
 }
 ul{
     list-style:none /* removes spacing*/
@@ -151,7 +152,7 @@ nav{
 }
 
 .nav-link:hover{
-    color:rgba(249,105,14,1);
+    color:rgb(200, 214, 229);
 }
 
 /*'X' in hamburger menu icon triggered by JS*/
@@ -201,7 +202,7 @@ nav{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.5rem;
     font-size: 3.5rem;
-    font-weight: 400;
+    font-weight: 850;
     overflow: hidden;
     white-space: nowrap;
     animation: typing 1.8s steps(22), blink 1s ease-in-out 7s infinite; /* delay: 3s for typing and 7s for cursor*/
@@ -283,7 +284,7 @@ nav{
 /* adding hover effect to button*/
 .btn:hover{
     color: #fafafa;
-    background-color: rgba(189,72,0,1);
+    background-color: rgb(200, 214, 229);
 }
 
 .scroll-down{
@@ -295,7 +296,7 @@ nav{
 }
 
 .scroll-down i:hover{
-    color: rgba(189, 72, 0, 1);
+    color: rgb(200, 214, 229);
 }
 
 /* about section ************************************************************* */
@@ -332,10 +333,12 @@ nav{
 }
 
 .about-text-box p{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.7rem;
+    font-family: "Merriweather Sans", sans-serif;
+    color: rgb(87, 101, 116);
+    font-size: 2rem;
+    font-weight: 800;
     padding: 0;
-    margin-bottom: 1.45rem;
+    margin-bottom: 3.5rem;
 
 }
 
@@ -343,7 +346,7 @@ hr{
     margin: 5rem 0;
     background: black;
     height: 10px;
-    border: 0; /* removing border to see effect*/
+    border: 20px; /* removing border to see effect*/
 
 }
 
@@ -394,7 +397,7 @@ hr{
     font-size: 1.5rem;
     padding: 0;
     margin-bottom: 1.45rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .stack-text-box h2{
@@ -449,7 +452,7 @@ hr{
 }
 
 .project-description h2{
-    font-family: "Montserrat", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size:2rem;
     margin: 2rem 0;
     border: 2px solid yellow;
@@ -457,7 +460,7 @@ hr{
 }
 
 .project-description p{
-    font-family: "Montserrat", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size:1.6rem;
     border: 2px solid yellow;
 
