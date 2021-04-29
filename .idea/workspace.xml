@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="add experience card">
+    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="add scripting for card flip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +90,7 @@
       <workItem from="1619565188014" duration="1173000" />
       <workItem from="1619577810242" duration="7048000" />
       <workItem from="1619655464717" duration="3506000" />
-      <workItem from="1619708070760" duration="319000" />
+      <workItem from="1619708070760" duration="5204000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -398,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619706165320</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add scripting for card flip">
+      <created>1619708599967</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1619708599968</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +426,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add JS to remove menu bar when not needed" />
     <MESSAGE value="add 'projects' to html" />
     <MESSAGE value="add styling to 'projects'" />
     <MESSAGE value="add 'contact me' section" />
@@ -442,6 +450,7 @@
     <MESSAGE value="update tech stack styling" />
     <MESSAGE value="remove projects and experience and update footer" />
     <MESSAGE value="add experience card" />
-    <option name="LAST_COMMIT_MESSAGE" value="add experience card" />
+    <MESSAGE value="add scripting for card flip" />
+    <option name="LAST_COMMIT_MESSAGE" value="add scripting for card flip" />
   </component>
 </project>
