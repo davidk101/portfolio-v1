@@ -33,6 +33,13 @@ navLinks.forEach(link => {
         })
     })
 })
+
+const card = document.querySelector('.card__inner');
+
+card.addEventListener('click', function(){
+    card.classList.toggle('is-flipped');
+
+});
 /*
 // closing menu bar after clicking outside the menu bar
 document.addEventListener("click", (e) =>{
