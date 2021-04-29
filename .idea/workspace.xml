@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update tech stack styling">
+    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="remove projects and experience and update footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ncr-logo-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ncr.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
@@ -103,7 +101,7 @@
       <workItem from="1614226008996" duration="474000" />
       <workItem from="1619565188014" duration="1173000" />
       <workItem from="1619577810242" duration="7048000" />
-      <workItem from="1619655464717" duration="1469000" />
+      <workItem from="1619655464717" duration="3059000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -399,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619586454876</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="remove projects and experience and update footer">
+      <created>1619657170106</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1619657170106</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +423,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add 'work experience' styling" />
     <MESSAGE value="add 'work experience' tier list CSS grid" />
     <MESSAGE value="add JS to remove menu bar when not needed" />
     <MESSAGE value="add 'projects' to html" />
@@ -443,6 +447,7 @@
     <MESSAGE value="add cloud tech section" />
     <MESSAGE value="refactor tech stack" />
     <MESSAGE value="update tech stack styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="update tech stack styling" />
+    <MESSAGE value="remove projects and experience and update footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove projects and experience and update footer" />
   </component>
 </project>
