@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="refactor tech stack">
+    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update tech stack styling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ncr-logo-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ncr.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +45,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,7 +102,8 @@
       <workItem from="1614225892028" duration="75000" />
       <workItem from="1614226008996" duration="474000" />
       <workItem from="1619565188014" duration="1173000" />
-      <workItem from="1619577810242" duration="6334000" />
+      <workItem from="1619577810242" duration="7048000" />
+      <workItem from="1619655464717" duration="1469000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -386,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619584775861</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="update tech stack styling">
+      <created>1619586454876</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1619586454876</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +418,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add 'work experience'" />
     <MESSAGE value="add 'work experience' styling" />
     <MESSAGE value="add 'work experience' tier list CSS grid" />
     <MESSAGE value="add JS to remove menu bar when not needed" />
@@ -430,6 +442,7 @@
     <MESSAGE value="update landing page and about section" />
     <MESSAGE value="add cloud tech section" />
     <MESSAGE value="refactor tech stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor tech stack" />
+    <MESSAGE value="update tech stack styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="update tech stack styling" />
   </component>
 </project>
