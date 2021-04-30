@@ -417,19 +417,75 @@ hr{
     margin-bottom: 80px;
 }
 .experience .container{
-    display: flex;
-    align-items: flex-start;
-    min-height: 40vh;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 500px 500px 500px;
+    grid-auto-rows: 100px;
+    grid-gap: 5rem;
+    border-color: yellow;
 }
 
 .card{
 
-    margin: 100px auto 0;
     width: 400px;
     height: 500px;
     perspective: 1000px; /* 3D flip */
+
 }
 
+/*
+.card1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.card2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.card3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+
+.card4{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+}
+
+
+.card5{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 6;
+
+}
+
+
+.card6{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 6;
+    grid-column-end: 7;
+
+}
+
+*/
 .card__inner{
 
     width: 100%;
@@ -478,13 +534,14 @@ hr{
 
 .company{
 
-    color: gray;
+    color: slategray;
 
 }
 
 .company h2{
 
     margin-bottom: 20px;
+
 }
 .card__face--back{
 
