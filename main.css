@@ -334,7 +334,7 @@ nav{
 
 .about-text-box p{
     font-family: "Merriweather Sans", sans-serif;
-    color: rgb(87, 101, 116);
+    color: #696969;
     font-size: 2rem;
     font-weight: 800;
     padding: 0;
@@ -383,11 +383,10 @@ hr{
 .container .stack-text-box p{
     text-align:center;
     font-size: 1.75rem;
-    font-weight: 900;
     padding: 0;
     margin-bottom: 1.45rem;
     font-family: 'Merriweather Sans', sans-serif;
-    color: slategray;
+    color: #696969;
 }
 
 .stack-text-box h2{
@@ -529,7 +528,9 @@ hr{
 
 .company{
 
-    color: slategray;
+    color: #696969;
+    font-size: 15px;
+
 
 }
 
@@ -549,6 +550,7 @@ hr{
     height: 100%;
 }
 
+/*
 .card__header{
 
     position: relative;
@@ -579,6 +581,8 @@ hr{
 
 }
 
+*/
+
 .card__body{
 
     padding: 30px;
@@ -586,7 +590,7 @@ hr{
 
 .card__body p{
 
-    color: gray;
+    color: #696969;
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 10px;
