@@ -395,7 +395,7 @@ hr{
 
 }
 
-/* professional experience ************************************************************* */
+/* experience ************************************************************* */
 
 .experience{
 
@@ -427,59 +427,6 @@ hr{
 
 }
 
-/*
-.card1{
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-
-}
-
-.card2{
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-
-}
-
-.card3{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-
-}
-
-
-.card4{
-    grid-row-start: 4;
-    grid-row-end: 5;
-    grid-column-start: 4;
-    grid-column-end: 5;
-
-}
-
-
-.card5{
-    grid-row-start: 5;
-    grid-row-end: 6;
-    grid-column-start: 5;
-    grid-column-end: 6;
-
-}
-
-
-.card6{
-    grid-row-start: 6;
-    grid-row-end: 7;
-    grid-column-start: 6;
-    grid-column-end: 7;
-
-}
-
-*/
 .card__inner{
 
     width: 100%;
@@ -531,7 +478,6 @@ hr{
     color: #696969;
     font-size: 15px;
 
-
 }
 
 .company h2{
@@ -550,39 +496,6 @@ hr{
     height: 100%;
 }
 
-/*
-.card__header{
-
-    position: relative;
-    padding: 30px 30px 40px;
-}
-
-.card__header:after{
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    border-radius: 0 0 50% 0;
-}
-
-
-.card__header h2{
-
-    color: white;
-    font-size: 32px;
-    font-weight: 900;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
-
-}
-
-*/
-
 .card__body{
 
     padding: 30px;
@@ -594,6 +507,60 @@ hr{
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 10px;
+}
+
+/* projects  ************************************************************* */
+
+.projects{
+    padding:3rem 0;
+    min-height:100vh;
+    max-width:70rem;
+    margin:auto; /* centers content*/
+    border: 2px solid yellow;
+}
+
+.has-margin-right{
+    margin: 0 3rem 0 0;
+}
+
+.project-item{
+    display:flex; /* image and content will be side by side*/
+    align-items:center;
+    justify-content:center;
+    margin:0 1.45rem 5rem 1.45rem;
+    border: 2px solid black;
+
+}
+
+.project-img{
+    flex: 1; /*image and content will occupy equal spacing*/
+    border: 2px solid yellow;
+    margin-right: 30px;
+}
+
+.project-description{
+    flex:1;  /*image and content will occupy equal spacing*/
+}
+
+.project-description h2{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size:2rem;
+    margin: 2rem 0;
+    border: 2px solid yellow;
+
+}
+
+.project-description p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size:1.6rem;
+    border: 2px solid yellow;
+
+}
+
+.project-link{
+    display: inline-block;
+    margin: 1.5rem 0;
+    font-size:1.4rem;
 }
 
 /* footer */

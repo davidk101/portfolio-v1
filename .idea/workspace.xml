@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update font and styling for cards">
+    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="add card flip animation to all cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +93,8 @@
       <workItem from="1619758418716" duration="2214000" />
       <workItem from="1619793056429" duration="3479000" />
       <workItem from="1619796845930" duration="1173000" />
-      <workItem from="1619804539456" duration="1606000" />
-    </task>
-    <task id="LOCAL-00001" summary="setup">
-      <created>1608506702982</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1608506702982</updated>
+      <workItem from="1619804539456" duration="2250000" />
+      <workItem from="1619820918132" duration="1423000" />
     </task>
     <task id="LOCAL-00002" summary="add logo, bg image and favicon">
       <created>1608511654954</created>
@@ -437,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619798160855</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add card flip animation to all cards">
+      <created>1619806386941</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1619806386942</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +458,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add styling to 'footer' and hover effect for all &lt;a&gt;" />
     <MESSAGE value="add experience text" />
     <MESSAGE value="add logos for Experience" />
     <MESSAGE value="add chevron" />
@@ -481,6 +482,7 @@
     <MESSAGE value="add css grid formatting for cards" />
     <MESSAGE value="update images for cards" />
     <MESSAGE value="update font and styling for cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="update font and styling for cards" />
+    <MESSAGE value="add card flip animation to all cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="add card flip animation to all cards" />
   </component>
 </project>
