@@ -34,12 +34,15 @@ navLinks.forEach(link => {
     })
 })
 
-const card = document.querySelector('.card__inner');
+let card = document.querySelectorAll('.card__inner');
 
-card.addEventListener('click', function(){
-    card.classList.toggle('is-flipped');
+card.forEach(card =>{
+    card.addEventListener('click', function(){
+        card.classList.toggle('is-flipped');
 
+    });
 });
+
 
 /*
 // closing menu bar after clicking outside the menu bar

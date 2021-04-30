@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update images for cards">
-      <change afterPath="$PROJECT_DIR$/images/acm1.png" afterDir="false" />
+    <list default="true" id="f20581d5-be6d-4d4f-a4fd-f57f2c5e3777" name="Default Changelist" comment="update font and styling for cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,8 @@
       <workItem from="1619708070760" duration="5232000" />
       <workItem from="1619758418716" duration="2214000" />
       <workItem from="1619793056429" duration="3479000" />
-      <workItem from="1619796845930" duration="1119000" />
+      <workItem from="1619796845930" duration="1173000" />
+      <workItem from="1619804539456" duration="1606000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1608506702982</created>
@@ -431,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619796796348</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="update font and styling for cards">
+      <created>1619798160855</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1619798160855</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +456,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add styling to 'contact'" />
     <MESSAGE value="add styling to 'footer' and hover effect for all &lt;a&gt;" />
     <MESSAGE value="add experience text" />
     <MESSAGE value="add logos for Experience" />
@@ -475,6 +480,7 @@
     <MESSAGE value="update styling for card flip in experience section" />
     <MESSAGE value="add css grid formatting for cards" />
     <MESSAGE value="update images for cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="update images for cards" />
+    <MESSAGE value="update font and styling for cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="update font and styling for cards" />
   </component>
 </project>
