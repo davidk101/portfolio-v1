@@ -1,7 +1,9 @@
-## portfolio
+## portfolio-v1
+
+Built using vanilla JS, HTML and CSS.
 
 Landing page: 
 
-![Teaser](teaser.png)
+![Demo picture](images/demo.png)
 
-Website will be live soon!
+Note: This is no longer my active portfolio web page. 
